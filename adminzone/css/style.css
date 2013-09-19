@@ -1,0 +1,118 @@
+/* 
+    Document   : style
+    Created on : Feb 6, 2011, 6:12:15 PM
+    Author     : viraj
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+	margin:0;
+	padding:0
+}
+
+.warningmsg{
+    color:#FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+
+.infomsg{
+    color:#008080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+
+.loginText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.buttonText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.sideHeaderText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: bold;    
+}
+
+.adminName{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	color: #BBBBBB;
+}
+
+.adminSubText{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color: #BBBBBB;
+}
+
+a{
+        font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	color: #4a1a1a;
+}
+A:hover {
+    color: #868686;
+text-decoration:underline;
+}
+
+.sidebarSubHeader{
+    	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+        text-align:center;
+	font-weight: bold;
+}
+
+.sidebarSectionHeader{
+        font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	color: #4a1a1a;
+        font-weight: bold;
+}
+
+.contentHeader{
+    	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+        text-align:center;
+	font-weight: bold;
+}
+
+.contentTableHeader, fieldset{
+    	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.contentText{
+    	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.languageHeader{
+    	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+        color: #ffffff;
+}
+
+.languagePageType
+{
+     	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+        color: #ffffff;
+}
+
+#tableList { background: #FFF; width: 100%; }
+#tableList tr:hover { background: #e6e6e6;}
+#tableList tr th {background: #868686;color:#ffffff;;font-family: Arial, Helvetica, sans-serif;font-size:12px;font-weight: bold;}
+#tableList tr td {font-family: Arial, Helvetica, sans-serif;font-size:10px;}
+
+#tableHeader tr td ,select {font-family: Arial, Helvetica, sans-serif;font-size:11px;}
